@@ -1,0 +1,81 @@
+/* App container */
+.app {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.app h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-size: 32px;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background: #1f2937;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* Nav links */
+.navbar a {
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background: #374151;
+}
+
+/* Page content */
+.page {
+  padding: 20px;
+}
+
+/* Page titles */
+.page h2 {
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+/* Lists */
+.list a {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background: #f9fafb;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+/* List hover */
+.list a:hover {
+  background: #eef2ff;
+  border-color: #6366f1;
+  color: #4338ca;
+}
+
+/* Detail card */
+.card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #f9fafb;
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
