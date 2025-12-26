@@ -10,8 +10,8 @@ import ProductList from "./pages/product/ProductList";
 import ProductDetails from "./pages/product/ProductDetails";
 
 // Blog
-import PostList from "./pages/Blog/PostList";
-import PostDetails from "./pages/Blog/PostDetails";
+import PostList from "./pages/blog/PostList";
+import PostDetails from "./pages/blog/PostDetails";
 
 // Movie
 import MovieList from "./pages/movies/MovieList";
